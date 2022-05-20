@@ -16,7 +16,9 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterLabel.Text);
 
-		//ExecuteOpenWithPS();
+#if WINDOWS
+		ExecuteOpenWithPS();
+#endif
 	}
 
 	private void ExecuteOpenWithPS()
