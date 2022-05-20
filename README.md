@@ -1,5 +1,5 @@
 # MAUI
-### Bug when run .net MAUI ShellApp on Mac
+### Bug when we run .net MAUI ShellApp on Mac
 ![bug](images/bug.jpg)
 
 ### When we run the app on Mac, it should display like this.
