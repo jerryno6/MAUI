@@ -6,4 +6,4 @@
 ![Expectation](images/expectation.jpg)
 
 Or like this if the flyout page is displayed
-![Expectation](images/expectation2.png)
+![Expectation](images/shellopen.png)
