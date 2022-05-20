@@ -17,11 +17,11 @@ public partial class MainPage : ContentPage
 		SemanticScreenReader.Announce(CounterLabel.Text);
 
 #if WINDOWS
-		ExecuteOpenWithPS();
+		//ExecuteOpenWithPhotoShop();
 #endif
 	}
 
-	private void ExecuteOpenWithPS()
+	private void ExecuteOpenWithPhotoShop()
 	{
 		var psexe = @"C:\Program Files\Adobe\Adobe Photoshop 2022\Photoshop.exe";
 		var myFile = @"D:\My TIFFs\Test.jpg";
