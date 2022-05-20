@@ -15,6 +15,17 @@ public partial class MainPage : ContentPage
 		CounterLabel.Text = $"Current count: {count}";
 
 		SemanticScreenReader.Announce(CounterLabel.Text);
+
+		//ExecuteOpenWithPS();
 	}
+
+	private void ExecuteOpenWithPS()
+	{
+		var psexe = @"C:\Program Files\Adobe\Adobe Photoshop 2022\Photoshop.exe";
+		var myFile = @"D:\My TIFFs\Test.jpg";
+
+		System.Diagnostics.Process.Start(psexe, myFile);
+	}
+
 }
 
