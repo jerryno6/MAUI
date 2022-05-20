@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="MyMauiApp.SettingsPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyMauiApp">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Settings"
+                   Margin="0,50,0,0"
+                   HorizontalOptions="Center"
+                   TextColor="Purple"
+                   VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
