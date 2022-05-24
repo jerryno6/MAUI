@@ -2,10 +2,12 @@
 
 public partial class App : Application
 {
+	public static NavigationPage Nav { get; set; }
 	public App()
 	{
 		InitializeComponent();
-		
-		MainPage = new MasterDetailPage();
+
+		Nav = new NavigationPage(new LoginPage() { Title = "LoginPageTitle" }) { Title = "NavigationTitle" };
+		MainPage = Nav; 
 	}
 }
