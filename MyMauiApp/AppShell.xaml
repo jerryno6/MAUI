@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <Shell x:Class="MyMauiApp.AppShell"
        xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -23,6 +23,9 @@
 
     <FlyoutItem Title="Home">
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="home" />
+    </FlyoutItem>
+    <FlyoutItem Title="MasterDetail">
+        <ShellContent ContentTemplate="{DataTemplate local:MasterDetailPage}" Route="masterdetail" />
     </FlyoutItem>
     <FlyoutItem Title="Settings">
         <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" Route="settings" />
