@@ -14,4 +14,9 @@ public partial class LoginPage : ContentPage
 		await DisplayAlert("Alert", "You have been alerted", "OK");
 
 	}
+
+	void DisplayPopup_Clicked(System.Object sender, System.EventArgs e)
+	{
+
+	}
 }

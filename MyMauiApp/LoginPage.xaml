@@ -7,12 +7,19 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Login"
+            <Button Text="Display simple popup"
                     Margin="0,50,0,0"
                    HorizontalOptions="Center"
                    TextColor="Purple"
                    VerticalOptions="Center"
                     Clicked="Button_Clicked"/>
+
+            <Button Text="Display Popup"
+                    Margin="0,50,0,0"
+                   HorizontalOptions="Center"
+                   TextColor="Purple"
+                   VerticalOptions="Center"
+                    Clicked="DisplayPopup_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
