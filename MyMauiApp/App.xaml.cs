@@ -7,5 +7,6 @@ public partial class App : Application
 		InitializeComponent();
 		
 		MainPage = new MasterDetailPage();
+		//MainPage = new AppShell();
 	}
 }

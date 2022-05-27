@@ -8,7 +8,7 @@ public partial class MasterDetailPage : FlyoutPage
 
 		var listPage = new ListPage() { Title = "ListPageTitle" };
 		Flyout = listPage;
-		IsPresented = true;
+		//IsPresented = true;//this line also causes crash on MAC
 
 		var detailPage = new MainPage() { Title = "DetailPageTitle" };
 		Detail = detailPage;
