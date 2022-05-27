@@ -1,19 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<ContentPage x:Class="MyMauiApp.LoginPage"
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="MyMauiApp.ListPage"
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:MyMauiApp"
-	         Title="LoginPage">
-
+             xmlns:local="clr-namespace:MyMauiApp">
     <ContentPage.Content>
         <StackLayout
             BackgroundColor="LightGray">
-            <Button Text="Login"
-                    Margin="0,50,0,0"
+            <Label Text="List Item"
                    HorizontalOptions="Center"
                    TextColor="Purple"
-                   VerticalOptions="Center"
-                    Clicked="Button_Clicked"/>
+                   VerticalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

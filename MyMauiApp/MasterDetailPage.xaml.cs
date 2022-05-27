@@ -6,10 +6,11 @@ public partial class MasterDetailPage : FlyoutPage
 	{
 		InitializeComponent();
 
-		var listPage = new LoginPage() { Title = "LoginPageTitle" };
-		this.Flyout = listPage;
+		var listPage = new ListPage() { Title = "ListPageTitle" };
+		Flyout = listPage;
+		IsPresented = true;
 
-		var detailPage = new LoginPage() { Title = "DetailPageTitle" };
-		this.Detail = detailPage;
+		var detailPage = new MainPage() { Title = "DetailPageTitle" };
+		Detail = detailPage;
 	}
 }
